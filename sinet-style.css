@@ -745,72 +745,150 @@ body {
     }
 }
 
-/* =======================
-   MOBILE ONLY
-======================= */
-
 @media (max-width: 600px) {
 
-    .navbar {
-        flex-direction: column;
-        height: auto;
-        padding: 10px 0;
-    }
+  /* PHOTOS */
+  .photo,
+  .photo-2 {
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
+  }
 
-    .sinet {
-        font-size: 26px;
-    }
-
-    .helpline_link,
-    .register_link {
-        margin: 10px 0;
-    }
-
-    .main_head {
-        font-size: 30px;
-    }
-
-    .head-caption {
-        font-size: 16px;
-    }
-
-.photo,
-.photo-2 {
-    display: flex;
-    gap: 20px;
-    padding: 0 5%;
-    flex-wrap: wrap;
-}
-
-
-    .btn-1 {
-        width: 100%;
-    }
-
-   .course-flex {
-    display: flex;
-    gap: 30px;
-    max-width: 900px;
-    margin: auto;
+  /* CERTIFICATE IMAGES */
+  .first-three-image,
+  .second-three-image {
+    gap: 20px;              /* cancel 290px */
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  /* ADVANTAGES IMAGE */
+  .advantage-img img {
+    margin-left: 0;
+    width: 90%;
+    display: block;
+    margin-inline: auto;
+  }
+
+  .advantages-under-text {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  /* ADVANTAGE TABLE */
+  .table {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* LOCATION IMAGE */
+  .institute {
+    width: 100%;
+    margin-left: 0;
+  }
 }
 
 
-    .course-box {
+/* =========================
+   MOBILE PHONE ONLY FIX
+   DOES NOT AFFECT LAPTOP
+========================= */
+@media (max-width: 600px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* NAVBAR */
+    .navbar {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+    }
+
+    /* HERO */
+    .main_head {
+        margin-top: 120px; /* navbar fixed issue */
+    }
+
+    /* IMAGES ROWS */
+    .photo,
+    .photo-2 {
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+        align-items: center;
+        gap: 15px;
+    }
+
+    /* DISPLAY SECTIONS */
+    .display-1 {
+        flex-direction: column;
+        height: auto;
+        line-height: normal;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* MASTER BOX */
+    .first-three,
+    .second-three {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* TABLE FIX */
+    .table {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    /* CERTIFICATE SECTION */
+    .first-three-image,
+    .second-three-image {
+        flex-direction: column;
+        gap: 25px;
+        justify-content: center;
+    }
+
+    /* LOCATION */
+    .location-section {
+        flex-direction: column;
+    }
+
+    .institute {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    /* ADVANTAGES */
+    .advantage-img img {
+        margin-left: 0;
+        width: 90%;
+    }
+
+    .advantages-under-text {
+        margin-left: 0;
+    }
+
+    /* MAP */
+    .map-section {
+        flex-direction: column;
+    }
+
+    .review,
+    .map {
         width: 100%;
     }
 
-    .long-box {
-        font-size: 1rem;
-        padding-left: 15px;
+    /* CONTACT */
+    .contact-flex {
+        flex-direction: column;
     }
 
-    .contact-us {
-        font-size: 32px;
-    }
-
-    .app-icons img {
-        width: 32px;
+    .td {
+        width: 100%;
     }
 }
