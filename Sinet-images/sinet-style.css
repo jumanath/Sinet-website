@@ -3,19 +3,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 .navbar {
     background-color:#174694ff;
     height: 70px;
     display: flex;
     justify-content: space-between;   
     align-items: center;
-    width: 100%;
-    margin-top: 0px;
-    position: fixed;
-    top: 0;          
-    left: 0;         
 }
-
 
 .sinet_link {
     margin: 25px;             
@@ -33,37 +29,18 @@ body {
 .helpline_link {
     margin: 25px;             
     font-size: 18px;
+  
+  
 }
 
 .helpline{
+    color: white;
+    font-family: monospace;
     text-decoration: none;
-    height:35px;
-    border-radius: 5px;
-    color: rgb(255, 255, 255);
-    text-shadow: 3px 3px 3px #0a42a3;
-    font-weight: bold;
+    font-weight: 200;
+    font-size: 20px;
+ 
 }
-
-.whatsapp{
-    color: #ffffff;
-    letter-spacing: 0.3px;
-    background-color: #0c884e;
-    border-color: #146c43;
-    height:35px;
-    border-radius: 5px;
-    overflow: hidden;
-    cursor: pointer;
-    text-shadow: 3px 3px 3px #0a42a3;
-    font-weight: bold;
-}
-
-.whatsapp:hover {
-    color: #fff;
-    background-color: #157347;
-    border-color: #146c43;
-}
-
-
 
 .register_link {
     margin: 25px;             
@@ -90,25 +67,23 @@ body {
     padding-top: 7px;
     padding-left: 11px;
     padding-right: 11px;
-    cursor: pointer;
-    
     
 }
 
 
 .main_head{
-    margin-top: 8%;
+    margin-top: 40px;
     color: #174694ff;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 60PX;
+    font-size: 90PX;
 }
 
 .head-caption{
-    font-family:monospace;
+    font-family:cursive;
     color: #174694ff;
     text-align: center;
-    margin-top: 0px;
+    margin-top: 6px;
     font-size: 30px;
     line-height: 0%;
 }
@@ -183,15 +158,11 @@ body {
 
 
 .btn-1{
+ 
     line-height: 100%;
     padding-right: 50px;
     padding-left: 50px;
-    color: #004080;
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
-    width: 150px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 
@@ -206,11 +177,10 @@ body {
     margin-top: 10px;
     height: 30px;
     margin-top: 1px;
-    cursor: pointer;
 
 }
 
-/* master-section */
+
 
 .main-square {
     background-color: rgb(225, 236, 236);
@@ -247,6 +217,13 @@ body {
     margin-top: 20px;
 }
 
+.btn-1 {
+    color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+}
 
 .second-three {
     display: flex;
@@ -257,13 +234,10 @@ body {
 }
 
 .button-under-text {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-weight: 200;      
-  letter-spacing: 1px;   
-  margin: 0;
+    margin-top: 60px;
+    text-align: center;
+    padding-left: 0;
 }
-
-
 .table-flex {
     display: flex;
     justify-content: center;
@@ -277,24 +251,17 @@ body {
     margin: 0;
     padding: 0;
     width: 250px; 
-    box-shadow: 0 8px 22px rgba(0,0,0,.18);
-    border-radius: 9px;
-    overflow: hidden;
-    
 }
 
 .table-one table,
 .table-two table {
     width: 100%; 
     border-collapse: collapse;
-    border-color: #eee4e4;    
-    background-color: #fff;    
-
 }
 
 
-/* DIPLOMA SECTION */
 
+/* DIPLOMA SECTION */
 .diploma-section {
     text-align: center;
     padding: 50px 20px;
@@ -319,7 +286,6 @@ body {
     max-width: 900px;
     margin: 0 auto;
     gap: 20px;
-    text-decoration: none;
 }
 
 .diploma-box {
@@ -331,9 +297,6 @@ body {
 .diploma-box h3 {
     color: #174694;
     margin-bottom: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    font-weight: bolder;
 }
 
 .diploma-box p {
@@ -344,9 +307,9 @@ body {
 .diploma-box button {
     background-color: red;
     color: yellow;
+    
     padding: 8px 16px;
 }
-
 
 
 /* <!-- TRENDING COURSE SECTION --> */
@@ -374,7 +337,7 @@ body {
     justify-content: space-between; 
     max-width: 900px;
     margin: 0 auto;
-    gap: 50%;
+    gap: 20px;
 }
 
 .course-box {
@@ -404,45 +367,36 @@ body {
 
 /* SHORT COURSE SECTION */
 
+
 .short-course-section {
     background-color: white;
     text-align: center;
-    padding: 50px 60px;
+    padding: 50px 20px;
 }
 
-.short-course-header h1 {
+.short-course-header h2 {
+    font-size: 2rem;
     color: #174694ff;
-    font-size: 3.5rem;
-    font-weight: bold;
     margin-bottom: 10px;
 }
 
 .short-course-header p {
-    color: rgb(23,60,178);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    color: #333;
     margin-bottom: 40px;
 }
 
-/* COURSE BOXES */
 
-.long-box {
-    background-color: #174694ff;
-    color: white;
 
-    height: 55px;
+.long-box{
+    background-color: #174694ff ;
+    width: auto;
+    height: 50px;
+    border-style: none;
     border-radius: 5px;
-
-    display: flex;
-    align-items: center;
-
-    padding-left: 25px;   /* 🔥 THIS is why first image looks better */
-    margin-bottom: 18px;
-
-    font-size: 1.1rem;
-    font-weight: 500;
+    color: white;
+    padding: 0px 20px;
 }
-
-
 
 
 /* JOB PLACEMENT SECTION */
@@ -453,7 +407,7 @@ body {
     padding: 50px 20px;
 }
 
-.job-placement-course-header h1 {
+.job-placement-course-header h2 {
     font-size: 2rem;
     color: #174694ff;
     margin-bottom: 10px;
@@ -467,14 +421,12 @@ body {
 
 
 /* CERTIFICATE SECTION */
-
 .certificate-box {
     background-color: #7a7a7a; 
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 50px;
-    flex-wrap: wrap;
 }
 
 .first-three-image,
@@ -509,7 +461,6 @@ body {
     font-weight: 600;
 }
 
-/* <!-- LOCATION_SECTION --> */
 
 .location-section {
     display: flex;
@@ -520,44 +471,45 @@ body {
 .location-head {
     color: #174694;
     text-align: left;
-    display: block; 
-    margin-left: 10px;
+    display: block;
+    
 }
+
+
 
 .para-section {
     color: black;
 }
 
 
+
+ 
+
 .institute {
     display: flex;
-    margin-left: 80px;
+    margin-left: 70px;
     width: 600px;
+
 }
 
-
-/* SINET ADVANTAGES */
 
 .sinet-advantages{
     align-items: center;
     display: block;
-    
+   
 }
 
 
-.advantage-img img{
+.advantage-img{
     margin-top: 100px;
-    margin-left: 30%;
 }
 
 .advantages-under-text{
     margin-top: 100px;
     color: #174694;
     font-size: large;
-    margin-left: 35%;
+ 
 }
-
-/* adntantage-table-section */
 
  .table{
     width:850px;
@@ -581,84 +533,90 @@ body {
   }
 
 
- /* MAP SECTION */
 
-.map-section{
+  /* MAP SECTION */
+  .map-section{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 60px;
 
-    width: 90%;
-    margin: 60px auto;
-}
-
-.review{
-    width: 45%;
+  }
+  .review{
+    display: block;
     color: #174694;
-}
-
-.review img{
-    width: 260px;
-    margin-bottom: 20px;
-}
-
-.review h2{
-    font-size: 26px;
-    font-weight: 600;
-    line-height: 1.4;
-}
-
-.map{
-    width: 55%;
-}
-
-.map iframe{
-    width: 100%;
-    height: 420px;
-    border: none;
-    border-radius: 14px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-}
+  }
 
 
 
-/* Contact-section */
 
-.contact-head{
-    background-color: #e9ecef;
-    padding: 8px 0 ;
-}
 
-.contact-us{
-    text-align: center;
-    font-size: 50px;
-    margin-bottom: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+  /* CONTACT SECTION
+  .contact-section{
+    max-width:1200px;
+    margin:0 auto;
+    padding:50px 20px;
+    text-align:center;
+    background-color: #6c757d;
+  }
 
-.contact-flex{
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    gap: 70px;
-}
+  .contact-section h2{
+    font-size:36px;
+    margin-bottom:50px;
+    color:#222;
+  }
 
-.td{
-    font-size: medium;
-    text-align: left;
-    line-height: 28px;
-    width: 33%;
-}
+  .contact-container{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:30px;
+    text-align:left;
+  }
 
-.app-icons{
-    margin-top: 8px;
-    padding-left: 5%;
-}
+  .contact-box{
+    flex:1;
+    min-width:280px;
+    background:#fff;
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 0 8px rgba(0,0,0,0.05);
+  }
 
-.app-icons img{
-    width: 40px;
-    margin-right: 10px;
-}
+  .contact-box h3{
+    font-size:18px;
+    font-weight:bold;
+    color:#222;
+    margin-bottom:5px;
+  }
 
+  .contact-box p{
+    margin:4px 0;
+    font-size:14px;
+    line-height:1.5;
+  }
+
+  .contact-box .place{
+    color:#f3a200;
+    font-weight:bold;
+  }
+
+  .contact-box img.icon{
+    width:18px;
+    vertical-align:middle;
+    margin-right:6px;
+  }
+
+  .social{
+    margin-top:30px;
+    display:flex;
+    justify-content:center;
+    gap:10px;
+  }
+
+  .social img{
+    width:30px;
+    height:30px;
+    border-radius:4px;
+  } */
+
+  .contact-head{
+    background-color: lightgray;
+  }
