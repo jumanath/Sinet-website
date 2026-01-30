@@ -1,4 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 body {
+    /* padding-top: 70px; */
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -662,3 +673,144 @@ body {
     margin-right: 10px;
 }
 
+
+/* =======================
+   MOBILE & TABLET FIX
+======================= */
+
+@media (max-width: 1024px) {
+
+    .main_head {
+        font-size: 42px;
+        margin-top: 100px;
+    }
+
+    .head-caption {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    .first-three,
+    .second-three {
+        flex-wrap: wrap;
+    }
+
+    .table-flex {
+        flex-wrap: wrap;
+    }
+
+    .certificate-box {
+        padding: 30px 10px;
+    }
+
+    .first-three-image,
+    .second-three-image {
+        gap: 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .location-section {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .institute {
+        width: 100%;
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .table {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .map-section {
+        flex-direction: column;
+    }
+
+    .review,
+    .map {
+        width: 100%;
+    }
+
+    .contact-flex {
+        flex-direction: column;
+    }
+
+    .td {
+        width: 100%;
+    }
+}
+
+/* =======================
+   MOBILE ONLY
+======================= */
+
+@media (max-width: 600px) {
+
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .sinet {
+        font-size: 26px;
+    }
+
+    .helpline_link,
+    .register_link {
+        margin: 10px 0;
+    }
+
+    .main_head {
+        font-size: 30px;
+    }
+
+    .head-caption {
+        font-size: 16px;
+    }
+
+.photo,
+.photo-2 {
+    display: flex;
+    gap: 20px;
+    padding: 0 5%;
+    flex-wrap: wrap;
+}
+
+
+    .btn-1 {
+        width: 100%;
+    }
+
+   .course-flex {
+    display: flex;
+    gap: 30px;
+    max-width: 900px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+    .course-box {
+        width: 100%;
+    }
+
+    .long-box {
+        font-size: 1rem;
+        padding-left: 15px;
+    }
+
+    .contact-us {
+        font-size: 32px;
+    }
+
+    .app-icons img {
+        width: 32px;
+    }
+}
