@@ -892,3 +892,49 @@ body {
         width: 100%;
     }
 }
+
+
+/* ===== MOBILE ONLY FIX — ADD ONLY, DO NOT MODIFY DESKTOP ===== */
+@media (max-width: 600px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Large margins causing white space */
+    .photo,
+    .photo-2 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /* Fixed width tables */
+    .table {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    /* Certificate extreme gaps */
+    .first-three-image,
+    .second-three-image {
+        gap: 20px;
+    }
+
+    /* Institute section overflow */
+    .institute {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    /* Map & contact containment — NOT redesign */
+    .map-section,
+    .contact-flex {
+        flex-wrap: wrap;
+    }
+
+    .map,
+    .review,
+    .td {
+        width: 100%;
+    }
+}
